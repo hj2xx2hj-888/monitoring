@@ -1,0 +1,17 @@
+server:
+  port: 8000
+
+####服务监控server端
+spring:
+  application:
+    name: wireless-admin-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.111.241.131:8848
+        namespace: 0ad81fa5-9564-4eb1-aef6-ad37805f8d90
+  security:
+    user:
+      name: admin
+      password: admin
+
